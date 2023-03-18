@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.button{
+  padding: 0.5rem;
+  border-radius: 40px;
+}
+.searchButton{
+background:#80ccff;
+margin: 1rem;
+
+
+}
+.newHeroButton{
+background: #ff6666;
+width: 8rem;
+justify-items: center;
+
+
+}
+.searchInput{
+  border-radius: 30px;
+  width: 15rem;
+  padding: 0.5rem;
+  
+}
+.container{
+display: grid;
+
+justify-items: center;
+}
+.searchContainer{
+  display: flex;
+  align-items: center;
+
+  
+}
+.buttons{
+  display: flex;
+  align-items: center;
+}
+
