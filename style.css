@@ -5,6 +5,7 @@ html {
 .button{
   padding: 0.5rem;
   border-radius: 40px;
+  transition: background 0.3s;
 }
 .searchButton{
 background:#80ccff;
@@ -16,8 +17,12 @@ margin: 1rem;
 background: #ff6666;
 width: 8rem;
 justify-items: center;
-
-
+}
+.searchButton:hover{
+background:#6699ff;
+}
+.newHeroButton:hover{
+  background: #ff1a1a ;
 }
 .searchInput{
   border-radius: 30px;
